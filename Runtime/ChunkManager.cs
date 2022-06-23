@@ -9,13 +9,13 @@ public class ChunkManager
 
     public int chunkSize => m_chunkSize;
 
-    private List<Vector2Int> m_visibleChunks;
+    private List<Vector2Int> m_visibleChunks = new List<Vector2Int>();
     private IChunkViewer m_viewer;
     private Action<Vector2Int, bool> m_onVisibilityChanged;
 
     public void Initialize(IChunkViewer viewer, Action<Vector2Int, bool> onVisibilityChanged)
     {
-        m_visibleChunks = new List<Vector2Int>();
+        m_visibleChunks.Clear();
 
         m_viewer = viewer;
         m_viewer.Initialize(m_chunkSize);
