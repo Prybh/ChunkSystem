@@ -1,12 +1,12 @@
 {
-  "name": "com.prybh.XXXXXXX",
+  "name": "com.prybh.chunksystem",
   "version": "0.0.0",
-  "displayName": "XXXXXXX",
-  "description": "XXXXXXX",
+  "displayName": "ChunkSystem",
+  "description": "ChunkSystem",
   "unity": "2021.3",
-  "documentationUrl": "https://github.com/Prybh/XXXXXXX",
-  "changelogUrl": "https://github.com/Prybh/XXXXXXX/CHANGELOG.md",
-  "licensesUrl": "https://github.com/Prybh/XXXXXXX/LICENSE.md",
+  "documentationUrl": "https://github.com/Prybh/ChunkSystem",
+  "changelogUrl": "https://github.com/Prybh/ChunkSystem/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Prybh/ChunkSystem/LICENSE.md",
   "dependencies": {},
   "keywords": [
     "unitypackage"
